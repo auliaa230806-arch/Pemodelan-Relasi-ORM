@@ -1,0 +1,4 @@
+Catatan Hasil Pengujian Query Praktikum ORM:
+- Tanpa with() menghasilkan 4 query.
+- Dengan with() menghasilkan 2 query.
+- Eager loading terbukti mengurangi jumlah query database.
