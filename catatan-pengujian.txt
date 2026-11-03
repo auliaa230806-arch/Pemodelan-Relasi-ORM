@@ -2,3 +2,8 @@ Catatan Hasil Pengujian Query Praktikum ORM:
 - Tanpa with() menghasilkan 4 query.
 - Dengan with() menghasilkan 2 query.
 - Eager loading terbukti mengurangi jumlah query database.
+
+Catatan Pengujian Constraint Database Praktikum ORM:
+- Pengujian A (Profil Ganda): Berhasil ditolak database karena aturan UNIQUE pada student_id.
+- Pengujian B (Foreign Key Tidak Valid): Berhasil ditolak database karena program studi tidak terdaftar.
+- Pengujian C (Pasangan Kelas Ganda): Berhasil ditolak database karena relasi many-to-many sudah ada.
